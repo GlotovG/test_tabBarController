@@ -12,6 +12,10 @@
 		B2E21A94213C89A900F21BA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E21A92213C89A900F21BA9 /* Main.storyboard */; };
 		B2E21A96213C89AB00F21BA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E21A95213C89AB00F21BA9 /* Assets.xcassets */; };
 		B2E21A99213C89AB00F21BA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E21A97213C89AB00F21BA9 /* LaunchScreen.storyboard */; };
+		B2E21AA1213C8A9600F21BA9 /* foto.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B2E21AA0213C8A9600F21BA9 /* foto.jpeg */; };
+		B2E21AA6213C8D6500F21BA9 /* domodedovo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2E21AA3213C8D6500F21BA9 /* domodedovo.jpg */; };
+		B2E21AA7213C8D6500F21BA9 /* rshb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2E21AA4213C8D6500F21BA9 /* rshb.jpg */; };
+		B2E21AA8213C8D6500F21BA9 /* sber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2E21AA5213C8D6500F21BA9 /* sber.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		B2E21A95213C89AB00F21BA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2E21A98213C89AB00F21BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2E21A9A213C89AB00F21BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2E21AA0213C8A9600F21BA9 /* foto.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto.jpeg; sourceTree = "<group>"; };
+		B2E21AA3213C8D6500F21BA9 /* domodedovo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = domodedovo.jpg; sourceTree = "<group>"; };
+		B2E21AA4213C8D6500F21BA9 /* rshb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rshb.jpg; sourceTree = "<group>"; };
+		B2E21AA5213C8D6500F21BA9 /* sber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sber.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		B2E21A8D213C89A900F21BA9 /* test_tabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				B2E21AA2213C8AA200F21BA9 /* source */,
 				B2E21A8E213C89A900F21BA9 /* AppDelegate.swift */,
 				B2E21A90213C89A900F21BA9 /* ViewController.swift */,
 				B2E21A92213C89A900F21BA9 /* Main.storyboard */,
@@ -62,6 +71,17 @@
 				B2E21A9A213C89AB00F21BA9 /* Info.plist */,
 			);
 			path = test_tabBarController;
+			sourceTree = "<group>";
+		};
+		B2E21AA2213C8AA200F21BA9 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				B2E21AA0213C8A9600F21BA9 /* foto.jpeg */,
+				B2E21AA3213C8D6500F21BA9 /* domodedovo.jpg */,
+				B2E21AA4213C8D6500F21BA9 /* rshb.jpg */,
+				B2E21AA5213C8D6500F21BA9 /* sber.jpg */,
+			);
+			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +142,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2E21AA1213C8A9600F21BA9 /* foto.jpeg in Resources */,
 				B2E21A99213C89AB00F21BA9 /* LaunchScreen.storyboard in Resources */,
 				B2E21A96213C89AB00F21BA9 /* Assets.xcassets in Resources */,
+				B2E21AA6213C8D6500F21BA9 /* domodedovo.jpg in Resources */,
+				B2E21AA7213C8D6500F21BA9 /* rshb.jpg in Resources */,
 				B2E21A94213C89A900F21BA9 /* Main.storyboard in Resources */,
+				B2E21AA8213C8D6500F21BA9 /* sber.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
